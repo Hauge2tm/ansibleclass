@@ -1,7 +1,6 @@
 plugin: azure_rm
 auth_source: auto
-include_vm_resource_groups:
- - '*'
+include_vm_resource_groups: matha
 keyed_groups:
  - prefix: tag
    key: tags
