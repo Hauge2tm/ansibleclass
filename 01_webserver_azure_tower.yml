@@ -2,6 +2,7 @@
 - hosts: tag_solution_webserver_mhn
   become: yes
   vars:
+
   tasks:
   - name: Install Apache
     dnf:
